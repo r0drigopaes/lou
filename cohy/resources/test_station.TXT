@@ -1,0 +1,20 @@
+//------------------------------------------------------------------------------
+//
+// Sistema de Informa��es Hidrol�gicas
+// Vers�o Web 3.0
+// � 2001 Ag�ncia Nacional de �guas (ANA)
+//
+// NivelConsistencia: 1 = Bruto, 2 = Consistido
+// MediaDiaria: 0 = N�o, 1 = Sim
+// MetodoObtencaoVazoes: 1 = Curva de descarga, 2 = Transfer�ncia de vaz�es, 3 = Soma de vaz�es, 4 = ADCP
+// Status: 0 = Branco, 1 = Real, 2 = Estimado, 3 = Duvidoso, 4 = R�gua Seca
+//
+// Restri��es da consulta:
+//   C�digo da Esta��o: 44630000
+//
+//------------------------------------------------------------------------------
+
+//EstacaoCodigo;NivelConsistencia;Data;Hora;MediaDiaria;MetodoObtencaoVazoes;Maxima;Minima;Media;DiaMaxima;DiaMinima;MaximaStatus;MinimaStatus;MediaStatus;MediaAnual;MediaAnualStatus;Vazao01;Vazao02;Vazao03;Vazao04;Vazao05;Vazao06;Vazao07;Vazao08;Vazao09;Vazao10;Vazao11;Vazao12;Vazao13;Vazao14;Vazao15;Vazao16;Vazao17;Vazao18;Vazao19;Vazao20;Vazao21;Vazao22;Vazao23;Vazao24;Vazao25;Vazao26;Vazao27;Vazao28;Vazao29;Vazao30;Vazao31;Vazao01Status;Vazao02Status;Vazao03Status;Vazao04Status;Vazao05Status;Vazao06Status;Vazao07Status;Vazao08Status;Vazao09Status;Vazao10Status;Vazao11Status;Vazao12Status;Vazao13Status;Vazao14Status;Vazao15Status;Vazao16Status;Vazao17Status;Vazao18Status;Vazao19Status;Vazao20Status;Vazao21Status;Vazao22Status;Vazao23Status;Vazao24Status;Vazao25Status;Vazao26Status;Vazao27Status;Vazao28Status;Vazao29Status;Vazao30Status;Vazao31Status;
+44630000;;01/01/2006;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+44630000;1;01/02/2006;;1;1;3,1517;2,3992;2,563;28;14;0;0;1;;0;1,1;2,2;3,3;4,4;5,5;6,6;7,7;8,8;9,9;10,10;2,4631;2,4631;2,4631;2,3992;2,3992;2,3992;2,3992;2,4631;2,4954;2,4954;2,5606;2,5936;2,5936;2,5936;2,6602;2,7618;2,9004;3,1151;29.29;30.30;31.31;1;1;0;0;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;1;0;0;1;0;1;0;
+44630000;40;01/01/2006;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
