@@ -3,6 +3,7 @@ __author__ = 'Rodrigo Paes - rodrigo@ic.ufal.br'
 import codecs
 import csv
 
+
 def read_csv(path_to_file, lines_to_ignore):
     csvfile = codecs.open(path_to_file, "r", encoding='utf-8', errors='ignore')
 
