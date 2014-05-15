@@ -1,5 +1,6 @@
 from django.http import HttpResponse
 from django.shortcuts import render
+from django.views.generic import TemplateView
 from rest_framework.decorators import api_view
 from rest_framework.response import Response
 from rest_framework import status
@@ -13,11 +14,6 @@ import json
 
 def index(request):
     return render(request, 'cohy/index.html')
-
-
-def angular(request):
-    return render(request, 'cohy/list.html')
-
 
 @api_view(['GET'])
 def get_my_objects(request, format=None):

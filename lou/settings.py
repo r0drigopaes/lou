@@ -83,7 +83,6 @@ USE_TZ = True
 
 STATIC_URL = '/static/'
 
-
 REST_FRAMEWORK = {
     # Use hyperlinked styles by default.
     # Only used if the `serializer_class` attribute is not set on a view.

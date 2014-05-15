@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+{% load staticfiles %}
+<html ng-app="cohy_app">
+<head>
+
+</head>
+<body ng-controller="cohy_controller">
+    <ul>
+        <li ng-repeat="station in station_list">
+            {% verbatim %}
+            <p>{{station.code}}</p>
+            {% endverbatim %}
+        </li>
+    </ul>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap.min.css">
+
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="//netdna.bootstrapcdn.com/bootstrap/3.1.1/css/bootstrap-theme.min.css">
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.1.1/js/bootstrap.min.js"></script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.0-beta.7/angular.min.js"></script>
+    <script src="{% static "cohy/controler.js"%}"></script>
+</body>
+</html>
