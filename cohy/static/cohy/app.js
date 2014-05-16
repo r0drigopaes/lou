@@ -5,8 +5,12 @@ cohyApp.config(['$routeProvider','urls',
                 templateUrl : urls.partial_stations,
                 controller : 'StationListCtrl'
             }).
+            when('/home', {
+                templateUrl : urls.partial_home,
+                controller : 'HomeCtrl'
+            }).
             otherwise({
-                redirectTo: '/stations'
+                redirectTo: '/home'
             });
     }
 ]);

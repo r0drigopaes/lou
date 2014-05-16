@@ -8,3 +8,8 @@ cohyControllers.controller('StationListCtrl',['$scope', '$http',
 
         });
     }]);
+
+cohyControllers.controller('HomeCtrl',['$scope', '$http',
+    function ($scope, $http) {
+
+    }]);

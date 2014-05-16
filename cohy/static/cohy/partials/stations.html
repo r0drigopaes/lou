@@ -1,7 +1,9 @@
-<div class="jumbotron">
-    <h1>CoHy</h1>
-
-    <p>COHY stands for Computational Hydrology. It is a set of tools to ... </p>
-
-    <p><a href="#" class="btn btn-primary btn-lg" role="button">Learn more >></a></p>
+<div>
+    <h1>Station List</h1>
+    <button class="btn btn-sm btn-primary" type="button">New</button>
+    <ul>
+        <li ng-repeat="station in station_list">
+            <p>{{station.code}}</p>
+        </li>
+    </ul>
 </div>
