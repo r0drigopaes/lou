@@ -12,3 +12,5 @@ body {
 .theme-showcase > p > .btn {
   margin: 5px 0;
 }
+
+.nav, .pagination, .carousel, .panel-title a { cursor: pointer; }
