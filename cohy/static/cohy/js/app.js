@@ -1,12 +1,18 @@
+var cohyApp = angular.module('cohyApp');
+
 cohyApp.config(['$routeProvider','urls',
     function($routeProvider,urls){
         $routeProvider.
             when('/stations', {
-                templateUrl : urls.partial_stations,
+                templateUrl : urls.station_list,
                 controller : 'StationListCtrl'
             }).
+            when('/station/new', {
+                templateUrl : urls.station_new,
+                controller : 'StationNewCtrl'
+            }).
             when('/home', {
-                templateUrl : urls.partial_home,
+                templateUrl : urls.home,
                 controller : 'HomeCtrl'
             }).
             otherwise({

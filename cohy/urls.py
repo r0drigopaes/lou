@@ -11,12 +11,14 @@ js_info_dict = {
 
 
 station_urls = patterns('',
-    url(r'^$', views.station_list, name='station_list')
+    url(r'^/new$', views.station_new, name='station_new'),
+    url(r'^/test$', views.test_form, name='station_test')
 )
 
 urlpatterns = patterns('',
     url(r'^$', views.index, name='index'),
-    url(r'^stations', include(station_urls)),
+    url(r'^stations', views.station_list, name='station_list'),
+    url(r'^station', include(station_urls)),
     url(r'^jsi18n/$', javascript_catalog, js_info_dict),
 )
 
