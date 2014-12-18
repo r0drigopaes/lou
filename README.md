@@ -18,7 +18,12 @@ The migration is coordinated by professor Rodrigo Paes (UFAL)
 *   Install PIP: [https://pypi.python.org/pypi/pip](https://pypi.python.org/pypi/pip)
     *   It will be installed under the Script directory in your Python installation folder. Put this Script directory in your PATH
 *   Install Django
-    *   Open the command prompt and type: `pip install Django==1.6.4`
+    *   Open the command prompt and type: `pip install Django==1.7.1`
+
+*   pip install djangorestframework
+*   pip install markdown       # Markdown support for the browsable API.
+*   pip install django-filter
+
 *   Create a github account: [https://github.com/](https://github.com/)
 *   Install git: [http://git-scm.com/downloads](http://git-scm.com/downloads)
 *   Install a github client for windows: [https://windows.github.com/](https://windows.github.com/)
