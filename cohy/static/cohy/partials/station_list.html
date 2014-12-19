@@ -1,9 +1,10 @@
 <div>
     <h1><span translate>station.list</span></h1>
-    <button  ng-click="go('/station/new')" class="btn btn-sm btn-primary" type="button"><span translate>new</span></button>
     <ul>
         <li ng-repeat="station in station_list">
             <p>{{station.code}}</p>
+            <p>{{station.average}}</p>
+
         </li>
     </ul>
 </div>

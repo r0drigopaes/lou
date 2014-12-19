@@ -7,14 +7,6 @@ cohyApp.config(['$routeProvider','urls',
                 templateUrl : urls.station_list,
                 controller : 'StationListCtrl'
             }).
-            when('/station/new', {
-                templateUrl : urls.station_new,
-                controller : 'StationNewCtrl'
-            }).
-            when('/home', {
-                templateUrl : urls.home,
-                controller : 'HomeCtrl'
-            }).
             otherwise({
                 redirectTo: '/home'
             });

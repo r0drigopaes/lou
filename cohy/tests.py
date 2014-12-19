@@ -7,7 +7,7 @@ import common.util as util
 import os
 from datetime import datetime
 from cohy.serializers import StationSerializer
-from rest_framework.compat import BytesIO
+from io import BytesIO
 
 
 # Create your tests here.
