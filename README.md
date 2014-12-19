@@ -28,7 +28,9 @@ The migration is coordinated by professor Rodrigo Paes (UFAL)
 *   Install git: [http://git-scm.com/downloads](http://git-scm.com/downloads)
 *   Install a github client for windows: [https://windows.github.com/](https://windows.github.com/)
 *   Create a fork of the github project: [https://github.com/r0drigopaes/lou/fork](https://github.com/r0drigopaes/lou/fork)
+
 *   Go to your local directory where you download the source files and open a command prompt
+    *   python manage.py syncdb
     *   Type: `python manage.py test` For example: `D:\symform\desenv\lou>python manage.py test`
     *   All tests should run. The output should look like:
 
